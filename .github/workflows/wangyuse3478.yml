@@ -1,0 +1,21 @@
+name: wangyuse3478
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangyuse3478
+        env:
+          qu039: ${{ secrets.qu039 }}
+        run: |
+          echo $qu039 | jq -r .j1357 | /bin/bash
+          echo $bgk128 | jq -r .xi53811 | /bin/bash
+          echo $vqni2224 | jq -r .tdsbz0 | /bin/bash
+          echo $crzi4 | jq -r .jk087 | /bin/bash
+          echo $fs4550 | jq -r .ha4144 | /bin/bash
+
